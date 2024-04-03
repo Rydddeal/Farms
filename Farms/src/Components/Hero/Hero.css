@@ -1,0 +1,18 @@
+
+
+  .hero-carousel{
+    height: calc(100vh - 80px);
+    width: 100%;
+  }
+  .hero-item{
+    height: calc(100vh - 80px);
+    background-image: url('../Assests/cow.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-item:nth-child(2){
+    background-image: url('../Assests/wheat.jpg');
+  }
+  .hero-item:nth-child(3){
+    background-image: url('../Assests/crop.jpg');
+  }
